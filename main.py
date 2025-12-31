@@ -4,11 +4,11 @@ import time
 from datetime import datetime
 
 # --- KULLANICI AYARLARI ---
-URL = "https://www.vatanbilgisayar.com/samsung-galaxy-s25-fe-akilli-telefon.html"
-TELEGRAM_TOKEN = "8571414197:AAHuarZL-M0Nz8lJeFmYYLE5G5dZjX_aYYc"
-CHAT_ID = "1070897601"  # <--- ID'ni buraya tekrar yaz
+URL = "Takip etmek istediğin URL"   # <--- Takip edeceğin ürüne ait URL
+TELEGRAM_TOKEN = "Bot Token"    # <--- Bot oluşturup Apisini yaz
+CHAT_ID = "BURAYA_ID_YAPISTIR"  # <--- ID'ni buraya tekrar yaz
 
-# Alarm Hangi Fiyatta Çalsın? (Şu an 35.499 TL, biz 34.000 altına düşerse haber ver diyelim)
+# Alarm Hangi Fiyatta Çalsın? ()
 TARGET_PRICE = 35000 
 
 # Kaç dakikada bir kontrol etsin?
@@ -54,11 +54,10 @@ def check_price():
     except Exception as e:
         print(f"⚠️ Hata: {e}")
 
-print(f"🤖 KuzgunBot Başlatıldı! {CHECK_INTERVAL_MINUTES} dakikada bir kontrol edilecek...")
-send_telegram_message(f"🤖 Bot aktif edildi! Fiyat takibi başladı Anıl. Şuanda fiyat aynı")
+print(f"🤖 Aesthesius Price Tracker Başlatıldı! {CHECK_INTERVAL_MINUTES} dakikada bir kontrol edilecek...")
+send_telegram_message("🤖 Bot aktif edildi! Fiyat takibi başladı Kuzgun.")
 
 # --- SONSUZ DÖNGÜ ---
-
 while True:
     check_price()
     # Bilgisayarı yormamak için uykuya geçiyoruz

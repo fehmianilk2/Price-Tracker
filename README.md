@@ -1,4 +1,4 @@
-# 👁️ Aesthesius - Intelligent Price Sentinel
+# 👁️ Aesthesius - Intelligent Price Tracker
 
 > **"Perception is the beginning of control."**
 
@@ -11,13 +11,12 @@ This project is the inaugural automation initiative of the **Aesthesius** ecosys
 
 ## 🌌 Vision & Project
 
-**Aesthesius Price Sentinel** is not merely a bot; it is a digital observer. Built upon **Anıl**'s backend philosophy, this system silently patrols complex e-commerce structures (such as Vatan Computer) 24/7.
+**Aesthesius Price Tracker** is a universal digital observer designed for the modern web. Architected by **Anıl**, this system abstracts the complexity of data tracking, allowing any user to monitor any product across various e-commerce platforms with precision.
 
-When the target object (e.g., Samsung S25 FE) aligns with the strategic price point defined by **Aesthesius**, the system transmits an instant, encrypted intelligence signal (notification) directly to **Anıl** via the Telegram API.
-
+It is not limited to a specific item or store. Whether for high-end electronics, market assets, or daily essentials, **Aesthesius** adapts to the user's need. Once a target URL and a strategic price point are defined, the sentinel silently patrols the web 24/7. Upon detecting the desired value, it transmits an instant, encrypted intelligence signal to the user via Telegram, ensuring that no opportunity is missed.
 ## 🛠️ Architecture
 
-Crafted with the perfectionist approach of **Aesthesius**, this tool is optimized for native performance on Arch Linux.
+Crafted with the perfectionist approach of **Aesthesius Software**, this tool is optimized for native performance on Arch Linux.
 
 * **Engine:** Python 3.x
 * **Observation (Scraping):** `BeautifulSoup4` & `Requests`
