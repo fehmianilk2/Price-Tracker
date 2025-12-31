@@ -31,4 +31,3 @@ To integrate the **Aesthesius** toolset into your system, follow these steps cur
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/fehmianilk2/Price-Tracker](https://github.com/fehmianilk2/Price-Tracker)
-cd price-sentinel
